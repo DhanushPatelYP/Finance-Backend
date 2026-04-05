@@ -220,7 +220,7 @@ Tested using Postman with multiple roles:
 ## ⚙️ Setup Instructions
 
 In terminal:
-git clone <your-repo-link>
+git clone https://github.com/DhanushPatelYP/Finance-Backend.git
 cd project
 npm install
 
