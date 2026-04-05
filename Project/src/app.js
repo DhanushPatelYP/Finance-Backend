@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import { connectDB } from './utils/db.js';
 import authRoutes from './routes/auth.routes.js';
 import testRoutes from "./routes/test.routes.js";
+import recordRoutes from "./routes/record.routes.js";
 
 dotenv.config();
 
@@ -32,3 +33,4 @@ app.listen(PORT,()=>{
 
 app.use("/auth",authRoutes);
 app.use("/test",testRoutes);
+app.use("/records",recordRoutes);
